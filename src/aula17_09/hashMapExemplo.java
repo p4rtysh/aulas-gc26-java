@@ -25,6 +25,9 @@ public class hashMapExemplo {
         colegas.put("Gabriel", 0);
         colegas.put("Babi", 10);
 
+        Integer c = colegas.get("Anna");
+        System.out.println(c);
+
         for (Map.Entry<String, Integer> f : colegas.entrySet()){
 
             System.out.println(f.getKey() + " -> " + f.getValue());
