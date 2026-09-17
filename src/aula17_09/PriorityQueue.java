@@ -1,4 +1,5 @@
 package aula17_09;
+import java.util.Queue;
 
 public class PriorityQueue {
     public static void main(String[] args) {
